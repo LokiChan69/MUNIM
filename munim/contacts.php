@@ -191,7 +191,13 @@
     .punder {
         width: 300px;
     }
-        
+
+
+    .email:hover {
+        cursor: pointer;
+        color: #25365c;
+        font-weight: bold;
+    }
     </style>
 </head>
 <body>
@@ -204,7 +210,7 @@
                 <ul class="nav-menu">
                     <li><a href="index.php">Главная</a></li>
                     <li><a href="news.php">Новости</a></li>
-                    <li><a href="#">Интервью</a></li>
+                    <li><a href="interview.php">Интервью</a></li>
                     <li><a href="galary.php">Галерея</a></li>
                     <li><a href="contacts.php">Контакты</a></li>
                 </ul>
@@ -221,15 +227,15 @@
             <table>
                 <tr>
                     <td>Email:</td>
-                    <td><code style="color:#3B5998; font-size:16px;">xaytan1.on@gmail.com, behzodabdulazizov43@gmail.com</code></td>
+                    <td><code style="color:#3B5998; font-size:16px;" class="email">xaytan1.on@gmail.com</code></td>
                 </tr>
                 <tr>
                     <td>Telegram:</td>
-                    <td><code style="color:#3B5998; font-size:16px;">@yan_bragin_52, @S7gun</code></td>
+                    <td><code style="color:#3B5998; font-size:16px;"  class="tg">@yan_bragin_52</code></td>
                 </tr>
                 <tr>
                     <td>Телефон:</td>
-                    <td><code style="color:#3B5998; font-size:16px;">+998 91 005 19 06, +998 97 414 25 70</code></td>
+                    <td><code style="color:#3B5998; font-size:16px;"  class="phoneNum">+998 91 005 19 06, +998 90 012 35 90</code></td>
     </tr>
             </table>
         </div>
@@ -262,13 +268,11 @@
                     <input type="email" placeholder="Введите ваш email" required>
                     <button type="submit">Подписаться</button>
                 </form>
-                <br>
             </div>
         </div>
 
         <div class="footer-bottom">
             <p>&copy; 2024 Школьная Газета. Все права защищены.</p>
-            
         </div>
     </footer>
 

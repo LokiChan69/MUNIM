@@ -318,7 +318,7 @@ $articles = $statement->fetchAll(PDO::FETCH_ASSOC);
                 <ul class="nav-menu">
                 <li><a href="index.php">Главная</a></li>
                     <li><a href="news.php">Новости</a></li>
-                    <li><a href="#">Интервью</a></li>
+                    <li><a href="interview.php">Интервью</a></li>
                     <li><a href="galary.php">Галерея</a></li>
                     <li><a href="contacts.php">Контакты</a></li>
                 </ul>
@@ -330,8 +330,8 @@ $articles = $statement->fetchAll(PDO::FETCH_ASSOC);
     <main class="main-content">
         <div class="container">
             <!-- Основной блок с актуальной новостью -->
-            <section class="highlight">
-                <div class="highlight-image"> <img src="imgs/school.jpg" width=590 height=300>
+            <section class="highlight" style="border-radius:12px;">
+                <div class="highlight-image"> <img src="imgs/school.jpg" width=590 height=300 style="border-radius:4px;">
                 </div>
                 <div class="highlight-text">
                     <h3>Немного о школе имени Мирзо Улугбека</h3>
