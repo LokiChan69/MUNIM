@@ -240,13 +240,13 @@ $articles = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="container">
             <h1 class="logo">Школьная Газета</h1>
             <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.php">Главная</a></li>
-                    <li><a href="news.php">Новости</a></li>
-                    <li><a href="#">Интервью</a></li>
-                    <li><a href="galary.php">Галерея</a></li>
-                    <li><a href="contacts.php">Контакты</a></li>
-                </ul>
+            <ul class="nav-menu" >
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="news.php">Новости</a></li>
+                <li><a href="interview.php">Интервью</a></li>
+                <li><a href="galary.php">Галерея</a></li>
+                <li><a href="contacts.php">Контакты</a></li>
+            </ul>
             </nav>
         </div>
     </header>

@@ -193,13 +193,13 @@
         <div class="continer">
             <h1 class="logo">Школьная Газета</h1>
             <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.php">Главная</a></li>
-                    <li><a href="news.php">Новости</a></li>
-                    <li><a href="#">Интервью</a></li>
-                    <li><a href="galary.php">Галерея</a></li>
-                    <li><a href="contacts.php">Контакты</a></li>
-                </ul>
+            <ul class="nav-menu" >
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="news.php">Новости</a></li>
+                <li><a href="interview.php">Интервью</a></li>
+                <li><a href="galary.php">Галерея</a></li>
+                <li><a href="contacts.php">Контакты</a></li>
+            </ul>
             </nav>
         </div>
     </header>
@@ -208,26 +208,25 @@
         <div class="gallery">
             <!-- Добавляем больше фотографий -->
             <!-- Стандартный формат с указанием размеров в alt -->
-            <div class="gallery-item"><img src="https://via.placeholder.com/300x200" alt="300x200"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/400x250" alt="400x250"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/500x350" alt="500x350"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/450x300" alt="450x300"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/600x400" alt="600x400"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/300x450" alt="300x450"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/400x600" alt="400x600"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/350x500" alt="350x500"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/550x450" alt="550x450"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/450x550" alt="450x550"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/500x300" alt="500x300"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/350x200" alt="350x200"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/300x250" alt="300x250"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/600x500" alt="600x500"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/700x350" alt="700x350"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/250x350" alt="250x350"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/450x400" alt="450x400"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/400x450" alt="400x450"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/500x550" alt="500x550"></div>
-            <div class="gallery-item"><img src="https://via.placeholder.com/350x300" alt="350x300"></div>
+            <div class="gallery-item"><img src="imgs/galary/300x200.jpg" alt="300x200"></div>
+            <div class="gallery-item"><img src="imgs/galary/400x250.jpg" alt="400x250"></div>
+            <div class="gallery-item"><img src="imgs/galary/500x350.jpg" alt="500x350"></div>
+            <div class="gallery-item"><img src="imgs/galary/450x300.jpg" alt="450x300"></div>
+            <div class="gallery-item"><img src="imgs/galary/600x400.jpg" alt="600x400"></div>
+            <div class="gallery-item"><img src="imgs/galary/300x450.jpg" alt="300x450"></div>
+            <div class="gallery-item"><img src="imgs/galary/400x600.jpg" alt="400x600"></div>
+            <div class="gallery-item"><img src="imgs/galary/550x450.jpg" alt="550x450"></div>
+            <div class="gallery-item"><img src="imgs/galary/450x550.jpg" alt="450x550"></div>
+            <div class="gallery-item"><img src="imgs/galary/500x300.jpg" alt="500x300"></div>
+            <div class="gallery-item"><img src="imgs/galary/350x200.jpg" alt="350x200"></div>
+            <div class="gallery-item"><img src="imgs/galary/300x250.jpg" alt="300x250"></div>
+            <div class="gallery-item"><img src="imgs/galary/600x500.jpg" alt="600x500"></div>
+            <div class="gallery-item"><img src="imgs/galary/700x350.jpg" alt="700x350"></div>
+            <div class="gallery-item"><img src="imgs/galary/250x350.jpg" alt="250x350"></div>
+            <div class="gallery-item"><img src="imgs/galary/450x400.jpg" alt="450x400"></div>
+            <div class="gallery-item"><img src="imgs/galary/400x450.jpg" alt="400x450"></div>
+            <div class="gallery-item"><img src="imgs/galary/500x550.jpg" alt="500x550"></div>
+            <div class="gallery-item"><img src="imgs/galary/350x300.jpg" alt="350x300"></div>
         </div>
     </div>
 
